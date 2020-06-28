@@ -10,7 +10,7 @@ const codeReducer = (state = initState, action) => {
     switch (action.type) {
         case GET_CODE: return {
             ...state,
-            numOfCodes: state.numOfCodes + 600
+            numOfCodes: state.numOfCodes + action.payload
         }
         default: return state
     }

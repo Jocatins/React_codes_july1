@@ -12,7 +12,7 @@ const CodeContainer = (props) => {
 }
 const mapStateToProps = state => {
     return {
-        numOfCodes: state.numOfCodes
+        numOfCodes: state.code.numOfCodes
     }
 }
 const mapDispatchToProps = dispatch => {
