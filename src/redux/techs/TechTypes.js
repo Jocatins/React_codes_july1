@@ -1,1 +1,0 @@
-export const GET_TECH = 'GET_TECH'
